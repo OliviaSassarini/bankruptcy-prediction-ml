@@ -1,0 +1,9 @@
+{
+  "model": "Random Forest",
+  "threshold": 0.14,
+  "roc_auc": 0.9540977961432507,
+  "pr_auc": 0.5229049184603958,
+  "recall_bankrupt": 0.7954545454545454,
+  "precision_bankrupt": 0.2916666666666667,
+  "business_cost": 175.0
+}
