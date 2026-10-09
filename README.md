@@ -74,9 +74,9 @@ Healthy firms had a median retained earnings to total assets ratio of 0.938, com
 
 | Model | ROC-AUC | PR-AUC | Recall (bankrupt) | Precision (bankrupt) | Business cost |
 |---|---|---|---|---|---|
-| Logistic Regression | | | | | |
-| Random Forest | | | | | |
-| Gradient Boosting | | | | | |
+| Random Forest |0.954 |0.523 |0.795 |0.292 |175 |
+| Gradient Boosting |0.947 |0.528 | 0.727  |0.356 |178 |
+| Logistic Regression |0.917 |0.319 |0.727 | 0.305  |193 |
 
 - The Random Forest model achieved the lowest business cost, catching 14% of bankruptcies in the test set.
 - The most important predictors were **[from figures/06_feature_importance.png]**.
