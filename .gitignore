@@ -1,6 +1,0 @@
-# Files GitHub should ignore
-models/
-__pycache__/
-.venv/
-.ipynb_checkpoints/
-.DS_Store
