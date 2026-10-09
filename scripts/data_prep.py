@@ -27,7 +27,6 @@ def load_raw(path=config.RAW_DATA) -> pd.DataFrame:
             "and save the CSV as dataset/data.csv"
         )
     df = pd.read_csv(path)
-    # The original column names have leading spaces (e.g. ' Current Ratio').
     df.columns = df.columns.str.strip()
     return df
 
